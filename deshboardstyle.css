@@ -1,0 +1,112 @@
+body{
+    background-color: #eec8c4;
+    
+}
+#Homepage{
+    background-color:	#eec8c4;
+    background: linear-gradient( to bottom right, #eec8c4 50%, white 50% );
+    /*background: linear-gradient(to left, #eec8c4 50%, white 50% );*/
+    height: 780px;
+}
+
+/*---Navigation Bar----*/
+.navigation{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#eec8c4;
+    background: linear-gradient(to bottom right, #eec8c4 100%, white 50% );
+    /*background: linear-gradient(to left, #eec8c4 50%, white 50% );*/
+    height: 50px;
+    width: 50%;
+    border-radius: 15px;
+}
+
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+li a:hover{
+    background-color: #eec8c4;
+    text-decoration: underline;
+}
+/*=====Header=====*/
+.header1{
+    font-size: 110px;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.firstText{
+    font-size: 40px;
+    margin-left: 15%;
+    margin-top: -10%;
+}
+
+/*======Search Bar======
+.topheader input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: -40px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+    border-radius: 15px;
+    width: 200px;
+
+}
+*/
+
+.row{
+    float: left;
+    width: 33%;
+    padding: 5px
+}
+.nike-shoes{
+    border-radius: 15px;
+    margin-left: 16px;
+    display: flex;
+}
+/*======Addidas Section===*/
+#addidas{
+    background-image: url();
+    background-color: #eec8c4;
+    height: 600px
+    
+}
+.header2{
+    text-align: center;
+    font-size: 30px;
+}
+.Addidas-superstar{
+    border-radius: 15px;
+    margin-bottom: 1;
+    margin-left: 20px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-sneaker{
+    position: absolute;
+    bottom: 10px;
+    left: 190px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.addidas-shoes{
+    display: flex;
+    float: left;
+    white-space: nowrap;
+}

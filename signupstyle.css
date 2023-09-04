@@ -1,0 +1,62 @@
+body{
+    background-color:#e8f5f3;
+}
+.sign-up-htm{
+    text-align: center;
+}
+.imagecontainer{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    width: 100%;
+}  
+.profile{
+    width: 10%;
+    border-radius: 50%;
+}
+input[type=text], input[type=password]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+
+button{
+    background-color: #2b9e85ea;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.5s;
+
+}
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
